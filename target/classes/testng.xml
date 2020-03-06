@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="供需平台测试套件" parallel="tests" thread-count="1" preserve-order="true">
+    <test name="供需平台测试用例">
+        <classes>
+            <class name="com.auto.testcase.login.DistriButorLogin">
+                <methods>
+                    <include name="loginCaseDb"/>
+                </methods>
+            </class>
+            <class name="com.auto.testcase.api.FindSearch">
+                <methods>
+                    <include name="findSearch"/>
+                </methods>
+            </class>
+            <class name="com.auto.testcase.api.FindDataApi">
+                <methods>
+                    <include name="findDataApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.testcase.api.FindAffiliatedNavigation">
+                <methods>
+                    <include name="findAffiliatedNavigation"/>
+                </methods>
+            </class>
+            <class name="com.auto.testcase.api.FindAffiliatedEnterprises">
+                <methods>
+                    <include name="findAffiliatedEnterprises"/>
+                </methods>
+            </class>
+            <class name="com.auto.testcase.api.FindAnalysis">
+                <methods>
+                    <include name="findAnalysis"/>
+                </methods>
+            </class>
+            <class name="com.auto.testcase.api.FindAnalyticalNavigation">
+                <methods>
+                    <include name="findAnalyticalNavigation"/>
+                </methods>
+            </class>
+            <class name="com.auto.testcase.api.FindList">
+                <methods>
+                    <include name="findList"/>
+                </methods>
+            </class>
+            <class name="com.auto.testcase.api.FindInfiltration">
+                <methods>
+                    <include name="findInfiltration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!--添加测试报告监听器-->
+    <listeners>
+        <listener class-name="com.auto.config.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95daccbb-eea1-4111-a98a-a5d5ee531439" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YYvk8YdGx7VslOZVABvP8360uw" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.auto.testcase.login" />
+      <recent name="com.auto.utils" />
+      <recent name="com.auto.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\autoapi\src\main\resources" />
+      <recent name="E:\autoapi\src\main\java\com\auto\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.E:/autoapi/src/main/resources/testng.xml">
+    <configuration name="DistriButorLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autoapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.auto.testcase.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.auto.testcase.login" />
+      <option name="MAIN_CLASS_NAME" value="com.auto.testcase.login.DistriButorLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/autoapi/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autoapi" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDataApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autoapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.auto.testcase.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.auto.testcase.api" />
+      <option name="MAIN_CLASS_NAME" value="com.auto.testcase.api.FindDataApi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindInfiltration.findSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autoapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.auto.testcase.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.auto.testcase.api" />
+      <option name="MAIN_CLASS_NAME" value="com.auto.testcase.api.FindInfiltration" />
+      <option name="METHOD_NAME" value="findSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindList.findSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autoapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.auto.testcase.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.auto.testcase.api" />
+      <option name="MAIN_CLASS_NAME" value="com.auto.testcase.api.FindList" />
+      <option name="METHOD_NAME" value="findSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.E:/autoapi/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.FindDataApi" />
+        <item itemvalue="TestNG.DistriButorLogin" />
+        <item itemvalue="TestNG.FindInfiltration.findSearch" />
+        <item itemvalue="TestNG.FindList.findSearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95daccbb-eea1-4111-a98a-a5d5ee531439" name="Default Changelist" comment="" />
+      <created>1583132482047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583132482047</updated>
+    </task>
+    <servers />
+  </component>
+</project>
