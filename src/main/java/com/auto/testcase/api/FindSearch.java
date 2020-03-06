@@ -35,7 +35,7 @@ public class FindSearch {
     @AfterMethod
     public void afterMethod(){
     }
-    @Test(groups = "FindSearch",description = "页面接口查询")
+    @Test(groups = "FindSearch",dependsOnGroups = "loginCaseDb",description = "页面接口查询")
     public void findSearch() throws IOException, URISyntaxException {
         URIBuilder builder = new URIBuilder(TestConfig.searchUrl);
         System.out.println(builder);

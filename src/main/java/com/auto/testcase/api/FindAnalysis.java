@@ -34,7 +34,7 @@ public class FindAnalysis {
     public void afterMethod(){
 
     }
-    @Test(groups = "FindAnalysis",description = "同业分析")
+    @Test(groups = "FindAnalysis",dependsOnGroups = "loginCaseDb",description = "同业分析")
     public void findAnalysis() throws IOException, InterruptedException {
         List<String> list = getList();
         for(String temp : list) {

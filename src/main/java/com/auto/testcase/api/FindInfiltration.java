@@ -32,7 +32,7 @@ public class FindInfiltration {
     @AfterMethod
     public void afterMethod(){
     }
-    @Test(groups = "FindInfiltration",description = "企业图谱接口查询")
+    @Test(groups = "FindInfiltration",dependsOnGroups = "loginCaseDb",description = "企业图谱接口查询")
     public void findInfiltration() throws IOException {
         HttpPost httpPost = new HttpPost(TestConfig.infiltrationUrl);
         JSONObject params = new JSONObject();

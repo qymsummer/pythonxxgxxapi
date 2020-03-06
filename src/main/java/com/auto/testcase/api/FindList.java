@@ -35,7 +35,7 @@ public class FindList {
     @AfterMethod
     public void afterMethod(){
     }
-    @Test(groups = "FindList",description = "负面清单接口查询")
+    @Test(groups = "FindList",dependsOnGroups = "loginCaseDb",description = "负面清单接口查询")
     public void findList() throws IOException {
         HttpPost httpPost = new HttpPost(TestConfig.listUrl);
         JSONObject params = new JSONObject();

@@ -33,7 +33,7 @@ public class FindAffiliatedNavigation {
     @AfterMethod
     public void afterMethod(){
     }
-    @Test(groups = "findAffiliatedNavigation",description = "关联企业查询接口")
+    @Test(groups = "findAffiliatedNavigation",dependsOnGroups = "loginCaseDb",description = "关联企业查询接口")
     public void findAffiliatedNavigation() throws IOException {
             HttpPost httpPost = new HttpPost(TestConfig.affiliatedNavigationUrl);
             JSONObject params = new JSONObject();

@@ -34,7 +34,7 @@ public class FindAnalyticalNavigation {
     public void afterMethod(){
 
     }
-    @Test(groups = "AnalyticalNavigation",description = "同业分析更多接口")
+    @Test(groups = "AnalyticalNavigation",dependsOnGroups = "loginCaseDb",description = "同业分析更多接口")
     public void findAnalyticalNavigation() throws IOException {
             HttpPost httpPost = new HttpPost(TestConfig.analyticalNavigationUrl);
             JSONObject params = new JSONObject();

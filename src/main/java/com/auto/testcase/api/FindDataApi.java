@@ -32,7 +32,7 @@ public class FindDataApi {
     @AfterMethod
     public void afterMethod(){
     }
-    @Test(groups = "FindDataApi",description = "数据data接口查询")
+    @Test(groups = "FindDataApi",dependsOnGroups = "loginCaseDb",description = "数据data接口查询")
     public void findDataApi() throws IOException {
         List<String> list = getList();
         for(String temp : list) {

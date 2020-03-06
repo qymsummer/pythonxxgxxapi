@@ -34,7 +34,7 @@ public class FindAffiliatedEnterprises {
     @AfterMethod
     public void afterMethod(){
     }
-    @Test(groups = "FindAffiliatedEnterprises",description = "关联企业查询接口-对外投资、在外任职、担任法定代表人")
+    @Test(groups = "FindAffiliatedEnterprises",dependsOnGroups = "loginCaseDb",description = "关联企业查询接口-对外投资、在外任职、担任法定代表人")
     public void findAffiliatedEnterprises() throws IOException {
         List<String> list = getList();
         for(String temp : list) {
